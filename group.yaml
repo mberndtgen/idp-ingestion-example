@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: idpadmins
-  description: The infra business unit
+  name: platform-team
+  description: The CCoE infra unit
 spec:
   type: team
   profile:
     displayName: Infrastructure
-    email: infrastructure@example.com
+    email: ccoe@ergo.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   parent: ops
   children: [backstage, other]
-  members: [jdoe]
+  members: [mberndtgen]
