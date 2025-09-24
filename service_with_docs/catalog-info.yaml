@@ -7,6 +7,5 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   owner: platform-team
-  version: 1.0.0
   lifecycle: production
-  type: terraform-module
+  type: software
