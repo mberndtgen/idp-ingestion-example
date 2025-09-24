@@ -1,11 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: service-with-docs
-  description: The place to be, for great artists
+  name: vpc-network
+  description: Terraform module for AWS VPC setup
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: service
+  owner: platform-team
+  version: 1.0.0
   lifecycle: production
-  owner: artist-relations-team
+  type: terraform-module
