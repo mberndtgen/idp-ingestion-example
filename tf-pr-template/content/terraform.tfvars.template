@@ -1,0 +1,38 @@
+# terraform.tfvars.example
+# AWS settings
+#
+aws_access_key       = "AKIA..."
+aws_flavor           = "t2.medium"
+aws_key_name         = "mb-useast1"
+aws_private_key_file = "file.pem"
+aws_region           = "us-east-1"
+aws_secret_key       = "<secret>"
+aws_subnet_id        = "<subnet>"
+aws_vpc_id           = "<vpc>"
+#
+# tf_chef_server settings
+#
+accept_license       = "true"
+#allowed_cidrs        = "109.44.2.0/24,195.49.224.20/0"
+allowed_cidrs        = "0.0.0.0/0"
+ami_os               = "ubuntu14"
+client_version       = "12.10.24"
+domain               = "<domain>.com"
+hostname             = "chef"
+log_to_file          = "true"
+org_short            = "Itergo"
+org_long             = "ITERGO Informationstechnologie GmbH"
+public_ip            = "true"
+root_delete_termination = "true"
+root_volume_size     = "20"
+root_volume_type     = "standard"
+server_addons        = "manage,push-jobs-server,reporting"
+server_count         = "1"
+server_version       = "12.6.0"
+ssl_cert             = "~/.ssh/aws-chef.crt"
+ssl_key              = "~/.ssh/chef.nopass.key"
+tag_description      = "Itergo HIT Chef Server"
+username             = "admin")
+user_email           = "<mail>"
+user_firstname       = "Admin"
+user_lastname        = "User"
