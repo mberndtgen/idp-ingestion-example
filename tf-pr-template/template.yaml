@@ -2,9 +2,9 @@ apiVersion: scaffolder.backstage.io/v1beta3
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-template
 kind: Template
 metadata:
-  name: terraform-template
-  title: Terraform Template
-  description: An terraform template for the scaffolder that creates a simple terraform script
+  name: terraform-pr-template
+  title: Terraform PR Template
+  description: An terraform template for the scaffolder that creates a simple terraform pull request script
 spec:
   owner: user:guest
   type: terraform
