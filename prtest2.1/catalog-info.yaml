@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "prtest2.1"
+spec:
+  type: terraform-module
+  owner: user:guest
+  lifecycle: experimental
