@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "NewFeature"
+spec:
+  type: terraform-module
+  owner: user:guest
+  lifecycle: experimental
